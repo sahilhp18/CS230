@@ -21,7 +21,7 @@ import seaborn as sns
 
 
 # Load the CSV file to understand the data
-data = pd.read_csv('/Users/sahil/PycharmProjects/BurgerBot_1/Streamlit Project/starbucks.csv')
+data = pd.read_csv('starbucks.csv')
 st.set_option('deprecation.showPyplotGlobalUse', False)
 
 st.set_page_config(
@@ -34,7 +34,7 @@ st.markdown("<h1 style='text-align: center; color:green; font-family: Times New 
 st.markdown("""<h1 style='text-align: center; font-family: "Times New Roman", Times, serif; white-space: nowrap; font-size: 16px;'>This web app visualizes data of Starbucks locations around the world.</h1>""", unsafe_allow_html=True)
 
 # [ST4]: SIDEBAR LOGO
-st.sidebar.image("/Users/sahil/PycharmProjects/BurgerBot_1/Streamlit Project/logo-de-starbucks-1992-1020x1024.png", width=280)
+st.sidebar.image("1020x1024.png", width=280)
 
 # Giphy
 st.markdown("""
